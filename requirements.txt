@@ -8,3 +8,4 @@ protobuf
 ckiptagger
 rank_bm25
 implicit
+scipy
