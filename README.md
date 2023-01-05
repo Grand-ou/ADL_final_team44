@@ -32,6 +32,7 @@ cd unseen/course
 
 bash download.sh
 # for example !bash test.sh hahow/data data
+# ckiptagger will read data as ws = WS(path_to_ckip_data, disable_cuda=False)
 bash test.py path_to_hahow_data path_to_ckip_data
 #predict file will save as courses_submission_unseen.csv
 ```
