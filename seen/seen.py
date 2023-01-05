@@ -107,6 +107,10 @@ def parse_args():
         default='seen_topic_pred.csv'
     )
     parser.add_argument(
+        "--pred_course",
+        action="store_true"
+    )
+    parser.add_argument(
         "--pred_topic",
         action="store_true"
     )
