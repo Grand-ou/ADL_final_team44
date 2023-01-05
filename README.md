@@ -23,7 +23,7 @@ cd unseen/topic
 bash download.sh
 
 bash run.sh
-
+#predict file will save as pred_3.csv
 ```
 ## course
 For testing unseen course recommending task, run bash as follows
@@ -33,5 +33,5 @@ cd unseen/course
 bash download.sh
 # for example !bash test.sh hahow/data data
 bash test.py path_to_hahow_data path_to_ckip_data
-
+#predict file will save as courses_submission_unseen.csv
 ```
