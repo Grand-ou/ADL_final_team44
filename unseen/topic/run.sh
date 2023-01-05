@@ -1,3 +1,2 @@
 #!/bin/bash
-python3 inference_group.py 
-
+python3 inference_group.py

@@ -25,7 +25,7 @@ parser.add_argument(
 parser.add_argument(
     "--ckpt_path",
     type=Path,
-    default="./group/3",
+    default="./group",
 )
 
 parser.add_argument(
