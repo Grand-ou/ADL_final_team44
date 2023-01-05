@@ -2,12 +2,17 @@
 GitHub repo for ADL final project.
 # seen
 For testing seen recommending, run bash as follows
-```
-# course
-bash seen/run.sh --pred_course
+## course
+```bash
+cd "$(git rev-parse --show-toplevel)/seen"
 
-# topic
-bash seen/run.sh --pred_topic
+bash ./run.sh --pred_course
+```
+## topic
+```bash
+cd "$(git rev-parse --show-toplevel)/seen"
+
+bash ./run.sh --pred_topic
 ```
 # unseen
 ## course
