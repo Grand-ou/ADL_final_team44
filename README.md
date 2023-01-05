@@ -1,5 +1,14 @@
 # ADL22_Final_Team44
 GitHub repo for ADL final project.
+# seen
+For testing seen recommending, run bash as follows
+```
+# course
+bash seen/run.sh --pred_course
+
+# topic
+bash seen/run.sh --pred_topic
+```
 # unseen
 ## course
 For testing unseen course recommending task, run bash as follows
