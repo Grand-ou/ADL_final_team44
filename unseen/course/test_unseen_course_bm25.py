@@ -7,19 +7,19 @@ import argparse
 from rank_bm25 import BM25Okapi
 from ckiptagger import WS
 parser = argparse.ArgumentParser()
-parser.add_argument("--data_path", default='add_one', help="data folder path")
+parser.add_argument("--data_path", default='./hahow/data', help="data folder path")
 parser.add_argument("--ckip_path", default='./data', help="data of ckiptagger folder path")
 args = parser.parse_args()
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
-ws = WS(args.data_path, disable_cuda=False)
+ws = WS(args.ckip_path, disable_cuda=False)
 # data_utils.download_data_gdown("./")
 
 with open('courses_doc.csv', newline='') as f:
     reader = csv.reader(f)
     courses_document = list(reader)
-data_path = args.ckip_path
+data_path = args.data_path + '/'
 courses = pd.read_csv(data_path+'courses.csv')
 users = pd.read_csv(data_path+'users.csv')
 # train = pd.read_csv(data_path+'train.csv')
